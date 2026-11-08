@@ -1,0 +1,86 @@
+[
+  {
+    "model": "logreg",
+    "val_pr_auc": 0.6507160692308769,
+    "threshold_A_from_val": 0.16211550433106142,
+    "test_roc_auc": 0.9729576177334013,
+    "test_pr_auc": 0.6964341553210253,
+    "test_cost_approve_all": 8854.26,
+    "policies": {
+      "A_limiar_global": {
+        "cost": 9898.49,
+        "saving_vs_approve_all": -1044.23,
+        "saving_ci95": [
+          -13387.27695,
+          6817.492749999989
+        ],
+        "approve_rate": 0.9988413328183702,
+        "review_rate": 0.0,
+        "decline_rate": 0.0011586671816298584,
+        "fraud_rate_among_approved": 0.0004745500562429696,
+        "frauds_declined": 48,
+        "frauds_reviewed": 0,
+        "frauds_approved": 27,
+        "legit_declined": 18
+      },
+      "B_custo_esperado_3_acoes": {
+        "cost": 8423.423999999999,
+        "saving_vs_approve_all": 430.8360000000007,
+        "saving_ci95": [
+          -12272.351450000004,
+          8525.680349999999
+        ],
+        "approve_rate": 0.9921351076156034,
+        "review_rate": 0.0009480004213335205,
+        "decline_rate": 0.006916891963063095,
+        "fraud_rate_among_approved": 0.00030081041865732386,
+        "frauds_declined": 46,
+        "frauds_reviewed": 12,
+        "frauds_approved": 17,
+        "legit_declined": 348
+      }
+    }
+  },
+  {
+    "model": "hist_gb",
+    "val_pr_auc": 0.7212107799240238,
+    "threshold_A_from_val": 0.05830195549693345,
+    "test_roc_auc": 0.9729966424666444,
+    "test_pr_auc": 0.7669020169703967,
+    "test_cost_approve_all": 8854.26,
+    "policies": {
+      "A_limiar_global": {
+        "cost": 9610.848,
+        "saving_vs_approve_all": -756.5879999999997,
+        "saving_ci95": [
+          -13724.03485,
+          7937.953199999995
+        ],
+        "approve_rate": 0.9985955549313578,
+        "review_rate": 0.0,
+        "decline_rate": 0.0014044450686422527,
+        "fraud_rate_among_approved": 0.00029886431560071725,
+        "frauds_declined": 58,
+        "frauds_reviewed": 0,
+        "frauds_approved": 17,
+        "legit_declined": 22
+      },
+      "B_custo_esperado_3_acoes": {
+        "cost": 2941.458,
+        "saving_vs_approve_all": 5912.802,
+        "saving_ci95": [
+          2603.2462499999997,
+          10455.883099999997
+        ],
+        "approve_rate": 0.9924159966293319,
+        "review_rate": 0.001106000491555774,
+        "decline_rate": 0.006478002879112391,
+        "fraud_rate_among_approved": 0.0002653458340704051,
+        "frauds_declined": 55,
+        "frauds_reviewed": 5,
+        "frauds_approved": 15,
+        "legit_declined": 314
+      }
+    }
+  }
+]
